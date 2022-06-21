@@ -1,0 +1,64 @@
+.sign-up {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: 
+      url("/src/assets/images/podil_bridge.jpg");
+    background-size: cover;
+  }
+
+.registerTitle {
+    font-size: 50px;
+}
+
+.registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label {
+    margin: 10px 0;
+}
+
+.registerInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.registerInput:focus {
+    outline: none;
+}
+
+.registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #228B22;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease-out;
+}
+
+.registerLoginButton {
+    margin-top: 22px;
+    background-color: #228B22;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    transition: all 0.3s ease-out;
+}
+
+.registerLoginButton:hover, .registerButton:hover {
+    background: #228B22;
+    color: #242424;
+    transition: all 0.3s ease-out;
+}
